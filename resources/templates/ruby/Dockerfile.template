@@ -1,4 +1,4 @@
-FROM ruby:slim
+FROM ruby:3.2.2-slim-bullseye
 
 LABEL Name={{ serviceName }} Version={{ version }}
 
